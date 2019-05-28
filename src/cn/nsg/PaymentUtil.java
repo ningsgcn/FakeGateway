@@ -265,9 +265,9 @@ public class PaymentUtil {
 	
 	public static void main(String[] args) {
         String key = "1234567890abcdefghijklmnopqrstuvwxyz";
-        String s = hmacSign(key);
+        String s0 = hmacSign(key);
         String s1 = md5(key);
-        System.out.println(s); //928f7bcdcd08869cc44c1bf24e7abec6
+        System.out.println(s0); //928f7bcdcd08869cc44c1bf24e7abec6
 		System.out.println(s1);//928f7bcdcd08869cc44c1bf24e7abec6
     }
 	
